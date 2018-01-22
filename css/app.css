@@ -1,0 +1,50 @@
+body{
+	font-family: Roboto;
+	background-image: url('../navy.jpg');
+	background-size: cover;
+}
+.container{
+	text-align: center;
+	color: white;
+}
+
+.inputBox{
+	margin: 0 auto;
+	width: 90%;
+	padding-bottom:20px;
+	color: black;
+}
+
+.para{	
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+	padding-bottom: 1em;
+}
+
+#Recent{
+	width: 50%;
+
+}
+.imgContainer{
+	width: 400px;
+}
+.jumbotron{
+	color: #0C3A85;
+	margin-top: 30px;
+	
+}
+
+.jumbotron {
+  box-shadow:none;
+}
+.jumbotron:hover {
+  box-shadow: 0 0 10px blue, inset 0 0 100px blue;
+}
+.jumbotron:active {
+  box-shadow: 0 0 5px #(color), inset 0 0 10px #(color of the glow you want);
+}
+
+.details{
+	font-size: 15px;
+}
