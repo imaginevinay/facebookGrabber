@@ -7,7 +7,6 @@ function getResponse(){
 
 var fbToken= $("input").val();
 
-//EAACEdEose0cBAM9R8UVoMyfGZBZBvzd1eeEQ8VEZCTPPwA140UkgQXgZAQZB94tK42HhEBTtUa8TyeAO3gEnm6noW2V6VVShZBRXuchP4B5IIITILcVY0dZBGBbH377avWdo7knY1x4u0lfZB4phuNvm0nbuHeYozvBHaiJcEQmBi9SxtKgkQ6aJTPvsLGJF9gYKG5ZBAgEVSwQZDZD;
 	
 	$.ajax('https://graph.facebook.com/me?fields=hometown,email,about,birthday,education,name,location,work&access_token='+fbToken,{
 
