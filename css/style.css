@@ -1,0 +1,148 @@
+body {
+	background: url(../img/fb.jpg) no-repeat;
+	background-size: cover;
+	font-size: 1.1rem;
+	font-family: sans-serif;
+}
+.display-4{
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.display-4, .lead, p {
+	text-align: center;
+}
+.para{
+	color: #fff;
+	text-align: center;
+}
+.para-one{
+	margin-top: 1.7em;
+}
+input, .input-group-prepend{
+	margin-top: 30px;
+}
+.btn {
+	display: block;
+	margin: 12px auto;
+}
+row{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+.details{
+	margin-top: 1rem;
+	padding: 1rem !important;
+}
+.card{
+	width: 80%;
+	margin: 1rem auto;
+}
+.coverPic{
+	margin-top: 50px;
+}
+#cover {
+	width: 100%;
+	max-height: 350px;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.post-details{
+	margin: auto;
+}
+#profile{
+	height: 100%;
+}
+.profilePic{
+	position: absolute;
+	height : 20vh;
+	width: 20vh;
+	top : 50%;
+	left: 5%;
+	padding: 2px;
+	z-index: 1;
+	border: 3px solid silver;
+}
+#posts h3,h4,h6,p,span{
+	text-align: center;
+}
+#posts h4,h3{
+	font-weight: 700;
+}
+@media screen and (max-width: 767px){
+	#profile{
+		height: 100%;
+   }
+	.profilePic{
+		position: absolute;
+		height : 20vh;
+		width: 20vh;
+		top : 45%;
+		left: 5%;
+		padding: 2px;
+		z-index: 1;
+		border: 3px solid silver;
+   }
+}
+@media screen and (max-width: 575px){
+	#profile{
+		height: 100%;
+   }
+	.profilePic{
+		position: absolute;
+		height : 19vh;
+		width: 19vh;
+		top : 50%;
+		left: 5%;
+		padding: 2px;
+		z-index: 1;
+		border: 3px solid silver;
+   }
+}
+@media screen and (max-width: 500px){
+	#profile{
+		height: 100%;
+   }
+	.profilePic{
+		position: absolute;
+		height : 17vh;
+		width: 17vh;
+		top : 50%;
+		left: 5%;
+		padding: 2px;
+		z-index: 1;
+		border: 3px solid silver;
+   }
+}
+@media screen and (max-width: 420px){
+	#profile{
+		height: 100%;
+   }
+	.profilePic{
+		position: absolute;
+		height : 15vh;
+		width: 15vh;
+		top : 45%;
+		left: 5%;
+		padding: 2px;
+		z-index: 1;
+		border: 3px solid silver;
+   }
+}
+@media screen and (max-width: 350px){
+	#profile{
+		height: 100%;
+   }
+	.profilePic{
+		position: absolute;
+		height : 10vh;
+		width: 10vh;
+		top : 50%;
+		left: 5%;
+		padding: 2px;
+		z-index: 1;
+		border: 3px solid silver;
+   }
+}
