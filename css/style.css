@@ -50,6 +50,7 @@ row{
 	background-size: cover;
 }
 .post-details{
+	width: 100%;
 	margin: auto;
 }
 #profile{
